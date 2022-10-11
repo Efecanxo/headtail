@@ -36,6 +36,12 @@ fun main(){
 
 println("well done, your game is finished and the head is(img): ${imgnum} and tail is(number): ${numnum}")
 
+ var thewinner:String
+
+ if(imgnum>numnum) thewinner ="head won by ${imgnum-numnum}"
+ else thewinner="tail won by  ${numnum-imgnum}"
+
+ println(thewinner)
 }
 
 
